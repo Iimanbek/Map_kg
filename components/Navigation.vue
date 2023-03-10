@@ -11,18 +11,26 @@
                     </div>
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M9.715 12c1.151 0 2-.849 2-2s-.849-2-2-2-2 .849-2 2 .848 2 2 2z"></path><path d="M20 4H4c-1.103 0-2 .841-2 1.875v12.25C2 19.159 2.897 20 4 20h16c1.103 0 2-.841 2-1.875V5.875C22 4.841 21.103 4 20 4zm0 14-16-.011V6l16 .011V18z"></path><path d="M14 9h4v2h-4zm1 4h3v2h-3zm-1.57 2.536c0-1.374-1.676-2.786-3.715-2.786S6 14.162 6 15.536V16h7.43v-.464z"></path></svg>
-                    </div>
-                    <div>
+                        </div>
+                        <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20 2H8a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-6 2.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM19 15H9v-.25C9 12.901 11.254 11 14 11s5 1.901 5 3.75V15z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8z"></path></svg>
-                    </div>
-                    <div class="text-2xl font-bold">
-                        Map.Kg
-                    </div>
+                        </div>
+                        <div class="w-24 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100%" viewBox="0 0 400 288" enable-background="new 0 0 400 288" xml:space="preserve">
+                        <path fill="#65" opacity="1.000000" stroke="none" d=" M216.729584,176.275543   C206.579361,166.157166 196.750641,156.216827 186.737427,146.465973   C184.000092,143.800369 183.637283,141.974350 186.723694,139.277939   C190.724106,135.783020 194.377502,131.875381 198.028732,128.002533   C200.034485,125.875023 201.562912,125.619888 203.768753,127.853271   C214.876709,139.099945 226.073456,150.259766 237.322891,161.365143   C239.409027,163.424561 239.432892,165.139343 237.735962,167.411697   C233.633301,172.905640 228.608871,177.451370 223.821884,182.095154   C220.588852,180.901794 219.134125,178.291489 216.729584,176.275543  z"/>
+                        <path fill="#F0BA19" opacity="1.000000" stroke="none" d=" M241.448212,122.777542   C246.131393,133.739044 246.725403,144.500092 243.513550,155.420258   C240.660400,155.698578 239.641647,153.955795 238.405823,152.734116   C228.816010,143.254044 219.358337,133.638382 209.665436,124.265663   C206.738708,121.435600 206.430878,119.354271 209.551208,116.547470   C213.135406,113.323418 216.565994,109.897079 219.787109,106.310555   C222.527481,103.259323 224.886459,103.537346 227.897476,105.907082   C233.636871,110.424088 238.156677,115.841927 241.448212,122.777542  z"/>
+                        <path fill="#905AA2" opacity="1.000000" stroke="none" d=" M175.145325,134.887329   C171.249786,130.991638 167.679276,127.267151 163.933960,123.727623   C161.847046,121.755371 161.774231,120.006508 163.318100,117.646011   C166.550476,112.703842 170.469788,108.506744 175.341980,105.156708   C177.610733,103.596748 179.445801,103.557434 181.459488,105.671463   C185.357971,109.764198 189.405289,113.716911 193.444031,117.673447   C195.157211,119.351768 195.588181,120.819962 193.614273,122.688019   C189.267532,126.801628 184.972458,130.975616 180.798004,135.262939   C178.790833,137.324387 177.151276,137.158371 175.145325,134.887329  z"/>
+                        <path fill="#4387C5" opacity="1.000000" stroke="none" d=" M175.414185,179.628479   C171.420914,175.601501 167.573624,171.929611 164.461441,167.558029   C162.766235,165.176834 162.395004,163.307755 164.834717,161.099899   C168.531738,157.754166 172.023972,154.174866 175.497696,150.592484   C177.400696,148.629959 179.041122,148.549454 180.980225,150.514938   C185.186310,154.778229 189.461349,158.974121 193.744629,163.160294   C195.391068,164.769394 195.388519,166.245193 193.755432,167.851730   C189.485672,172.052078 185.199066,176.237503 181.022141,180.529083   C178.817352,182.794388 177.257294,181.644699 175.414185,179.628479  z"/>
+                        <path fill="#EE6925" opacity="1.000000" stroke="none" d=" M213.495514,192.528549   C210.221741,195.864151 207.110031,198.874466 204.196030,202.065323   C202.048523,204.416870 200.234894,204.556335 197.982330,202.187805   C194.201523,198.212311 190.283676,194.364487 186.352066,190.536270   C184.461395,188.695328 184.093842,187.104050 186.204971,185.098297   C190.303467,181.204315 194.327469,177.225464 198.242950,173.147934   C200.323273,170.981522 201.981369,170.962448 204.040756,173.164627   C207.106186,176.442581 210.359268,179.545609 213.546188,182.709290   C218.427719,187.555252 218.432648,187.550278 213.495514,192.528549  z"/>
+                        <path fill="#CC278E" opacity="1.000000" stroke="none" d=" M191.756012,106.261871   C189.907761,104.173164 187.547958,102.962936 186.575638,99.870377   C196.268890,96.118515 205.712845,96.147110 216.033951,100.098061   C211.221085,104.930641 206.964951,109.262772 202.635849,113.520729   C201.024124,115.105949 199.628204,114.142029 198.352570,112.856789   C196.244598,110.732925 194.120468,108.625114 191.756012,106.261871  z"/>
+                        <path fill="#56C0D7" opacity="1.000000" stroke="none" d=" M157.672699,131.612122   C158.363678,129.321228 159.629059,129.501282 160.752853,130.567474   C164.353012,133.983063 167.860016,137.497314 171.380020,140.996582   C172.505157,142.115097 172.527008,143.287766 171.393127,144.469772   C167.654465,148.367096 163.931274,152.279251 159.510178,156.910583   C155.602448,147.861847 156.255768,139.945480 157.672699,131.612122  z"/>
+                        </svg>
+                        </div>
                 </div>
             </nav>
             <div>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam tempore quos blanditiis accusamus deserunt numquam nam aliquid, consequatur nisi quia eaque quo nostrum deleniti. Aliquid nobis quas modi quod facere amet et impedit fugiat voluptas laudantium quaerat aspernatur adipisci odio eaque quisquam, nihil consequatur autem id rem esse. Molestias dolorum animi dicta tempora vero repellendus totam. Eveniet hic obcaecati vitae dignissimos exercitationem dolorum et illo voluptate! Laboriosam quas nam ut eum eveniet qui, impedit, totam, vero incidunt provident tempore dicta eligendi? Quis possimus vero animi cum maxime exercitationem architecto dolorum perspiciatis, voluptates non soluta impedit officiis sint voluptatem in laboriosam!laksmxlamslx
-                </div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam tempore quos blanditiis accusamus deserunt numquam nam aliquid, consequatur nisi quia eaque quo nostrum deleniti. Aliquid nobis quas modi quod facere amet et impedit fugiat voluptas laudantium quaerat aspernatur adipisci odio eaque quisquam, nihil consequatur autem id rem esse. Molestias dolorum animi dicta tempora vero repellendus totam. Eveniet hic obcaecati vitae dignissimos exercitationem dolorum et illo voluptate! Laboriosam quas nam ut eum eveniet qui, impedit, totam, vero incidunt provident tempore dicta eligendi? Quis possimus vero animi cum maxime exercitationem architecto dolorum perspiciatis, voluptates non soluta impedit officiis sint voluptatem in laboriosam!laksmxlamslx
+            </div>
         </header>
     </div>
 </template>
@@ -30,15 +38,9 @@
 export default {
     data() {
         return {
-
+            h:'hello world'
         }
-    },
-    methods: {
-    },
-    mounted() {
-    },
+    }
+    
 }
 </script>
-<style lang="css">
-
-</style>
