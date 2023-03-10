@@ -30,32 +30,15 @@
 export default {
     data() {
         return {
-            navv:''
+
         }
     },
     methods: {
-        onScroll(event){
-            const scrollPosition = event.target.scrollElement.scrollTop;
-            if (scrollPosition > 10) {
-                if (!navigation.classList.contains("scrolled-down")) {
-                    navigation.classList.add("scrolled-down")
-                }
-            }else{
-                if (navigation.classList.contains("scrolled-down")) {
-                    navigation.classList.remove("scrolled-down")
-                }
-            }
-            document.addEventListener("scroll", this.onScroll)
-        }
     },
     mounted() {
-        console.log(navigation)
     },
 }
 </script>
 <style lang="css">
-    nav.scrolled-down{
-        height: 80px;
-        box-shadow: 0 10px 50px rgba(0, 0, 0, 0, 0.14);
-    }
+
 </style>
