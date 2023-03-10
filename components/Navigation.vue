@@ -36,11 +36,11 @@
 </template>
 <script>
 export default {
-    data() {
-        return {
-            h:'hello world'
-        }
-    }
-    
+data() {
+return {
+h:'hello world'
+}
+}
+
 }
 </script>
