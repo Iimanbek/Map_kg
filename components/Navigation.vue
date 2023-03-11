@@ -1,5 +1,5 @@
 <template >
-    <div class="fixed w-full">
+    <div class="fixed w-full z-20">
         <header>
             <nav ref="navigation" class="border-b-2 border-black bg-white duration-300">
                 <div class="flex justify-around items-center">
@@ -38,7 +38,8 @@
                             <path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8z"></path>
                         </svg>
                     </div>
-                    <div @click="this.$router.push('/')" class="">
+                    <div @click="this.$router.push('/')" class="flex justify-center items-center">
+                        <span class="text-[22px] pr-[5px] font-bold text-blue-700"></span>
                         <img class="w-[30px] my-[4px]" src="sharik.svg" />
                     </div>
 
