@@ -24,13 +24,13 @@
                 </div>
             </div>
             <div>
-                <Cotent/>
-            </div>
-            <div>
                 <card />
             </div>
             <div>
                 
+            </div>
+            <div>
+                <Cotent/>
             </div>
         </NuxtLayout>
     </div>
