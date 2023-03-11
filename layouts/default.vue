@@ -4,7 +4,8 @@
 
 		<Navigation/>
 		<slot/>
-
+        <Footerr/>
+    
 	</div>
 
 </template>
