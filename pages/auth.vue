@@ -64,14 +64,45 @@
 export default {
     data() {
         return {
-            login: '',
-            password: ''
+            formData: {
+                login: '',
+                password: ''
+            }
         }
     },
     methods: {
-        testing() {
-            console.log(this.login);
-            console.log(this.password);
+        async register() {
+            const URL = `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCYwDa8pInVFMDC3mbTTDcrjZhOUzA_SEQ`
+            const OPTIONS = {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(this.formData)
+            }
+            const response = await fetch(URL, OPTIONS)
+            const data = await response.json()
+            if (response.ok) {
+                localStorage.setItem('user', data)
+                this.$router.push({ path: '/private' })
+            } else {
+                // switch (data.error.message) {
+                //     case 'INVALID_EMAIL':
+                //         this.errors.email = 'Неверный email'
+                //         break
+                //     case 'EMAIL_EXISTS':
+                //         this.errors.email = 'Такой email уже есть'
+                //         break
+                //     case 'WEAK_PASSWORD : Password should be at least 6 characters':
+                //         this.errors.password = 'Пароль должен превышать 6 символов'
+                //         break
+                //     default:
+                //         this.$notify({
+                //             title: data.error.message,
+                //             type: 'error'
+                //         });
+                // }
+            }
         }
     },
     mounted() {
