@@ -1,7 +1,7 @@
 <template >
-    <div>
+    <div class = "fixed w-full">
         <header>
-            <nav ref="navigation" class="border-b-2 border-black fixed w-full bg-white duration-300">
+            <nav ref="navigation" class="border-b-2 border-black bg-white duration-300">
                 <div class="flex justify-between items-center">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
@@ -20,19 +20,8 @@
                         </div>
                 </div>
             </nav>
-            <div>
-                Lorem ipsum lll dolor sit amet consectetur, adipisicing elit. Aperiam tempore quos blanditiis accusamus deserunt numquam nam aliquid, consequatur nisi quia eaque quo nostrum deleniti. Aliquid nobis quas modi quod facere amet et impedit fugiat voluptas laudantium quaerat aspernatur adipisci odio eaque quisquam, nihil consequatur autem id rem esse. Molestias dolorum animi dicta tempora vero repellendus totam. Eveniet hic obcaecati vitae dignissimos exercitationem dolorum et illo voluptate! Laboriosam quas nam ut eum eveniet qui, impedit, totam, vero incidunt provident tempore dicta eligendi? Quis possimus vero animi cum maxime exercitationem architecto dolorum perspiciatis, voluptates non soluta impedit officiis sint voluptatem in laboriosam!laksmxlamslx
-            </div>
         </header>
     </div>
 </template>
 <script>
-export default {
-    data() {
-        return {
-            h:'hello world'
-        }
-    }
-    
-}
 </script>
