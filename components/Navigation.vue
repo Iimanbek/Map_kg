@@ -2,7 +2,7 @@
     <div>
         <header>
             <nav ref="navigation" class="border-b-2 border-black fixed w-full bg-white duration-300">
-                <div class="flex justify-between items-center">
+                <div class="flex justify-around items-center">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
                     </div>
@@ -15,14 +15,14 @@
                         <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20 2H8a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-6 2.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM19 15H9v-.25C9 12.901 11.254 11 14 11s5 1.901 5 3.75V15z"></path><path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8z"></path></svg>
                         </div>
-                        <div class="w-24 ">
-                        	<img class = "w-[30px] my-[4px]" src= "sharik.svg"/>
+                        <div class=" ">
+                        	<img class = "w-[30px] " src= "sharik.svg"/>
                         </div>
                 </div>
             </nav>
-            <div>
+            <!-- <div>
                 Lorem ipsum lll dolor sit amet consectetur, adipisicing elit. Aperiam tempore quos blanditiis accusamus deserunt numquam nam aliquid, consequatur nisi quia eaque quo nostrum deleniti. Aliquid nobis quas modi quod facere amet et impedit fugiat voluptas laudantium quaerat aspernatur adipisci odio eaque quisquam, nihil consequatur autem id rem esse. Molestias dolorum animi dicta tempora vero repellendus totam. Eveniet hic obcaecati vitae dignissimos exercitationem dolorum et illo voluptate! Laboriosam quas nam ut eum eveniet qui, impedit, totam, vero incidunt provident tempore dicta eligendi? Quis possimus vero animi cum maxime exercitationem architecto dolorum perspiciatis, voluptates non soluta impedit officiis sint voluptatem in laboriosam!laksmxlamslx
-            </div>
+            </div> -->
         </header>
     </div>
 </template>
