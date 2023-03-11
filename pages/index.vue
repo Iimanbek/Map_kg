@@ -2,12 +2,12 @@
     <div>
         <NuxtLayout>
             <div class="grid pt-[80px]">
-                <div class="flex flex-col gap-4 justify-self-center [&_*]:border-2 [&_*]:border-red-500 [&_*]:p-2">
+                <div class="flex flex-col gap-4 justify-self-center [&_*]:border-2 [&_*]:border-blue-800 [&_*]:p-2">
                     <input placeholder="Введите Ваше местоположение" />
                     <input placeholder="Введите куда Вы направляетесь" />
                 </div>
                 <button @click="showMap()"
-                    class="flex justify-self-center bg-orange-500 rounded-sm text-white m-4 p-2">Найти маршрут</button>
+                    class="flex justify-self-center bg-blue-800 rounded-sm text-white m-4 p-2">Найти маршрут</button>
             </div>
             <div v-if="map">
                 <img src="easy.gif" />
