@@ -19,7 +19,5 @@
 // import { defineNuxtConfig } from '#imports'
 
 export default defineNuxtConfig({
-    modules: [
-        '@nuxtjs/tailwindcss',
-    ]
-})
+  modules: ["@nuxtjs/tailwindcss"],
+});

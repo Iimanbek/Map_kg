@@ -1,7 +1,7 @@
 <template >
     <div>
         <header>
-            <nav ref="navigation" class="border-b-2 border-black fixed w-full bg-white duration-300">
+            <nav ref="navigation" class="bg-sky-700 border-b-2 border-black fixed w-full bg-white duration-300">
                 <div class="flex justify-between items-center">
                     <div class="flex justify-between items-center w-48">
                         <div>
