@@ -17,7 +17,8 @@
                             </path>
                         </svg>
                     </div>
-                    <div>
+                    <div @click="$event => this.$router.push('/About')">
+
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
                             <path d="M9.715 12c1.151 0 2-.849 2-2s-.849-2-2-2-2 .849-2 2 .848 2 2 2z"></path>
@@ -46,6 +47,7 @@
                 </div>
             </nav>
         </header>
+
     </div>
 </template>
 <script>

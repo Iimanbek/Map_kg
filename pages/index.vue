@@ -32,8 +32,11 @@
             <div>
                 <Cotent />
             </div>
+            
         </NuxtLayout>
+        
     </div>
+
 </template>
 <script setup lang="ts">
 
