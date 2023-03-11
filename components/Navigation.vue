@@ -29,7 +29,7 @@
                             </path>
                         </svg>
                     </div>
-                    <div>
+                    <div @click="this.$router.push('/auth')">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
                             <path
@@ -38,7 +38,7 @@
                             <path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8z"></path>
                         </svg>
                     </div>
-                    <div class="">
+                    <div @click="this.$router.push('/')" class="">
                         <img class="w-[30px] my-[4px]" src="sharik.svg" />
                     </div>
 
