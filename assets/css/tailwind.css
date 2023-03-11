@@ -2,6 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .front, .back {
+        overflow: hidden;
+        backface-visibility: hidden;
+        position: absolute;
+        transition: transform .6s linear;
+        
+    }
+
+    .notFront, .notBack {
+
+        overflow: hidden;
+        backface-visibility: hidden;
+        position: absolute;
+        transition: transform .6s linear;
+
+    }
+
+    .front {
+
+        transform: perspective(2000px) rotateY(0deg);
+
+    }
+    
+    .back{
+
+        transform: perspective(2000px) rotateY(-180deg);
+
+    }
+    
+    .notFront {
+    
+        transform: perspective(2000px) rotateY(180deg);
+    
+    }
+    
+    .notBack{
+        transform: perspective(2000px) rotateY(0deg);
+    }
+
+}
+
 body{
     margin: 0;
     padding: 0;
