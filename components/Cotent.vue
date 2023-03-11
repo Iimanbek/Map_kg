@@ -1,5 +1,26 @@
 <template>
     <div>
+        <div>
+
+        </div>
+        <div>
+            
+        </div>
+        <div>
+            
+        </div>
+        <div>
+            
+        </div>
+        <div>
+            
+        </div>
+        <div>
+            
+        </div>
+        <div>
+            
+        </div>
         <img class="w-[100%]  " width="500" src="../assets/batken.jpeg">
         <img class="w-[100%]  " src="../assets/image/isyk-kol.jpeg" alt="">
         <img src="../assets/image/kara-kol.jpg" alt="">
