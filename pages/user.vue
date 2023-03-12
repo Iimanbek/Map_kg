@@ -1,6 +1,6 @@
 <template>
     <NuxtLayout>
-        <div class="pt-[10px]">
+        <div class="pt-[25px]">
             <div>
                 <div class="flex-1 bg-white shadow-xl mt-8 mr-5 w-full relative overflow-hidden">
                     <div class="bg-blue-500 h-64 rounded-t-lg absolute w-full"></div>
