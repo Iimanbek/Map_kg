@@ -29,8 +29,11 @@
             <div>
                 <card />
             </div>
+            
         </NuxtLayout>
+        
     </div>
+
 </template>
 <script setup lang="ts">
 
