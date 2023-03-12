@@ -7,7 +7,8 @@
                     <input placeholder="Введите куда Вы направляетесь" />
                 </div>
                 <button @click="showMap()"
-                    class="flex justify-self-center bg-blue-800 rounded-sm text-white m-4 p-2">Найти маршрут</button>
+                    class="flex justify-self-center bg-blue-800 rounded-[10px] text-white m-4 py-3 px-5">Найти
+                    маршрут</button>
             </div>
             <div v-if="map">
                 <img src="easy.gif" />
@@ -32,11 +33,10 @@
             <div>
                 <Cotent />
             </div>
-            
-        </NuxtLayout>
-        
-    </div>
 
+        </NuxtLayout>
+
+    </div>
 </template>
 <script setup lang="ts">
 
