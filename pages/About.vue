@@ -26,7 +26,7 @@
 
       <div class="bg-gray-100 w-[100%] h-[500px] flex justify-center mt-[100px] fixed top-0 left-0 z-40 overflow-hidden"
         v-if="isExpanded">
-        <button class="mr-4 flex justify-end text-[28px] p-[8px] " @click="togglePanel">
+        <button class="mr-4 flex justify-end text-[28px] p-[8px] font-roboto " @click="togglePanel">
           X
         </button>
 
@@ -36,7 +36,7 @@
           </h1>
           <p class="text-[17px] mt-[20px] p-[5px] leading-8">Транспортная карта Bus Pass предназначена для проезда жителей
             и гостей Республики Кыргызстан
-            на общественном транспорте
+            на общественном транспортe
             ​
             Приобрести транспортную карту можно в центре обслуживания пользователей по адресу:
 
