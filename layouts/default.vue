@@ -1,13 +1,9 @@
 <template>
-
 	<div>
-
-		<Navigation/>
-		<slot/>
-        <Footerr/>
-    
+		<Navigation />
+		<slot />
+		<Footerr />
 	</div>
-
 </template>
 
 <script>

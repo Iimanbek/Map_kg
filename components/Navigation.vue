@@ -1,5 +1,5 @@
 <template >
-    <div class="fixed w-full">
+    <div class="fixed w-full z-20">
         <header>
             <nav ref="navigation" class="border-b-2 border-black bg-white duration-300">
                 <div class="flex justify-around items-center">
@@ -17,7 +17,8 @@
                             </path>
                         </svg>
                     </div>
-                    <div>
+                    <div @click="$event => this.$router.push('/About')">
+
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
                             <path d="M9.715 12c1.151 0 2-.849 2-2s-.849-2-2-2-2 .849-2 2 .848 2 2 2z"></path>
@@ -29,7 +30,7 @@
                             </path>
                         </svg>
                     </div>
-                    <div>
+                    <div @click="this.$router.push('/auth')">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
                             <path
@@ -38,14 +39,17 @@
                             <path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8z"></path>
                         </svg>
                     </div>
-                    <div class="">
+                    <div @click="this.$router.push('/')" class="flex justify-center items-center">
+                        <span class="text-[22px] pr-[5px] font-bold text-blue-700"></span>
                         <img class="w-[30px] my-[4px]" src="sharik.svg" />
                     </div>
 
                 </div>
             </nav>
         </header>
+
     </div>
 </template>
 <script>
 </script>
+

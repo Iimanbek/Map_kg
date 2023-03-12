@@ -27,15 +27,16 @@
                 <card />
             </div>
             <div>
-                
+
             </div>
             <div>
-                <Cotent/>
+                <Cotent />
             </div>
+            
         </NuxtLayout>
+        
     </div>
 
-    
 </template>
 <script setup lang="ts">
 
