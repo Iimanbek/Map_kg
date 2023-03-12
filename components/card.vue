@@ -1,14 +1,10 @@
 <template>
     <div @click="flip()" class="flex justify-center mt-[60px] w-[100%] ">
         <div :class="clickFlip ? 'notFront' : 'front'"
-            class="w-[98%] bg-blue-800 rounded-[20px] h-[240px] justify-center flex-col ">
+            class="w-[98%] bg-blue-700 rounded-[20px] h-[240px] justify-center flex-col ">
             <div class="justify-center flex flex-col h-full items-center mt-[20px]">
                 <div class="justify-center flex"><img class="w-[60px]" src="../public/sharik.svg" /></div>
                 <p class="justify-center flex text-white text-[60px]">Bus Pass</p>
-            </div>
-
-            <div>
-
             </div>
         </div>
 
