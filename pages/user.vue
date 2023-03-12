@@ -12,7 +12,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
                                 </svg> -->
-                                <img class="w-8 h-8 mr-2" src="sharik.svg" />
+                                <img class="w-8 h-8 mr-2" src="../public/sharik.svg" />
                             </div>
                             <div class="text-white text-2xl font-extrabold my-1">Bektursun</div>
                             <div class="text-gray-300 w-60 text-sm">
@@ -114,7 +114,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
                                 </svg> -->
-                                <img class="w-5 h-5 -ml-2" src="sharik.svg" />
+                                <img class="w-5 h-5 -ml-2" src="../public/sharik.svg" />
                                 Проголосовать за любимый транспорт
                             </button>
                         </div>

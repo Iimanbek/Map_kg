@@ -41,7 +41,7 @@
                     </div>
                     <div @click="this.$router.push('/')" class="flex justify-center items-center">
                         <span class="text-[22px] pr-[5px] font-bold text-blue-700"></span>
-                        <img class="w-[30px] my-[4px]" src="sharik.svg" />
+                        <img class="w-[30px] my-[4px]" src="../public/sharik.svg" />
                     </div>
 
                 </div>

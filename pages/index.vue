@@ -11,7 +11,7 @@
                     маршрут</button>
             </div>
             <div v-if="map">
-                <img src="easy.gif" />
+                <img src="../public/easy.gif" />
             </div>
             <div v-if="!map">
                 <div style="position:relative;overflow:hidden;"><a
