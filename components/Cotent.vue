@@ -28,6 +28,7 @@
             <img class="opacity-[0.6]" src="../assets/image/narin.jpg" alt="">
             <p class="absolute text-white text-[25px]">Naryn</p>
         </div>
+
     </div>
 </template>
 <script>
