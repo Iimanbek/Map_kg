@@ -7,7 +7,7 @@
                     <input placeholder="Введите куда Вы направляетесь" />
                 </div>
                 <button @click="showMap()"
-                    class="flex justify-self-center bg-blue-800 rounded-[10px] text-white m-4 py-3 px-5">Найти
+                    class="flex justify-self-center bg-blue-600 rounded-[10px] text-white m-4 py-3 px-5">Найти
                     маршрут</button>
             </div>
             <div v-if="map">

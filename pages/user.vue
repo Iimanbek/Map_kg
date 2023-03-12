@@ -3,7 +3,7 @@
         <div class="pt-[10px]">
             <div>
                 <div class="flex-1 bg-white shadow-xl mt-8 mr-5 w-full relative overflow-hidden">
-                    <div class="bg-blue-700 h-64 rounded-t-lg absolute w-full"></div>
+                    <div class="bg-blue-500 h-64 rounded-t-lg absolute w-full"></div>
                     <div class="flex flex-col overflow-y-auto h-full space-y-3 py-3">
                         <div class="flex flex-col ml-4 z-10">
                             <div class="">
@@ -108,7 +108,7 @@
                                 </div>
                             </div>
                             <button type="button"
-                                class="flex bg-blue-700 text-sm text-white font-semibold items-center justify-center ml-3 px-4 py-2 rounded-full gap-2">
+                                class="flex bg-blue-600 text-sm text-white font-semibold items-center justify-center ml-3 px-4 py-2 rounded-full gap-2">
                                 <!-- <svg class="text-white w-5 h-5 -ml-2" xmlns="http://www.w3.org/2000/svg" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

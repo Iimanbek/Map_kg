@@ -1,23 +1,55 @@
 <template >
-    <div class="fixed w-full z-20">
+    <div class="fixed w-full">
         <header>
             <nav ref="navigation" class="border-b-2 border-black bg-white duration-300">
-                <div class="flex justify-around items-center py-2">
-                    <div @click="toggleMenu">
+                <div class="flex justify-around items-center">
+                    <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
                             <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
                         </svg>
                     </div>
-                    <div class=" text-white sm:px-6">
-                        <div>
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
-                                    <path
-                                        d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z">
-                                    </path>
-                                </svg>
+                    <div>
+
+                    </div>
+                    <div class=" text-white py-4 px-4 sm:px-6">
+                        <div class="flex items-center justify-between flex-wrap">
+                            <div class="flex items-center flex-shrink-0">
+
+
+                            </div>
+                            <div class="block sm:hidden">
+                                <button @click="showMenu = !showMenu"
+                                    class="flex items-center px-3 py-2 border rounded text-gray-300 border-gray-300 hover:text-white hover:border-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
+                                        <path
+                                            d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="w-full block flex-grow sm:flex sm:items-center sm:w-auto"
+                                :class="{ 'hidden': !showMenu }">
+                                <div class="text-sm sm:flex-grow">
+                                    <a href="#responsive-header"
+                                        class="block mt-4 sm:inline-block sm:mt-0 text-gray-300 hover:text-white mr-4">
+                                        Docs
+                                    </a>
+                                    <a href="#responsive-header"
+                                        class="block mt-4 sm:inline-block sm:mt-0 text-gray-300 hover:text-white mr-4">
+                                        Examples
+                                    </a>
+                                    <a href="#responsive-header"
+                                        class="block mt-4 sm:inline-block sm:mt-0 text-gray-300 hover:text-white">
+                                        Blog
+                                    </a>
+                                </div>
+                                <div class="mt-4 sm:mt-0">
+                                    <button class="bg-white text-gray-900 font-bold py-2 px-4 rounded-full">
+                                        Sign In
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -34,7 +66,7 @@
                             </path>
                         </svg>
                     </div>
-                    <div @click="this.$router.push('/auth')">
+                    <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                             style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
                             <path
@@ -43,9 +75,8 @@
                             <path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8z"></path>
                         </svg>
                     </div>
-                    <div @click="this.$router.push('/')" class="flex justify-center items-center">
-                        <span class="text-[22px] pr-[5px] font-bold text-blue-700"></span>
-                        <img class="w-[30px] my-[4px]" src="../public/sharik.svg" />
+                    <div class="">
+                        <img class="w-[30px] my-[4px]" src="sharik.svg" />
                     </div>
 
                 </div>
